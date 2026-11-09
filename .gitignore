@@ -1,0 +1,36 @@
+# Credenciales y llaves (NUNCA versionar)
+*.pem
+*.ppk
+*.env
+
+# Terraform: estado, cache y artefactos generados
+Terraform/.terraform/
+*.tfstate
+*.tfstate.*
+Terraform/build/
+Terraform/layer_build/
+crash.log
+
+# Artefactos de la Lambda layer
+**/layer_build/
+**/build/
+
+# Bases de datos locales de prueba (SQLite)
+*.db
+
+# Salidas temporales / logs
+*.log
+_*.txt
+_*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
