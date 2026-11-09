@@ -88,7 +88,7 @@ Una vez desplegado:
 
 ## Arquitectura
 
-![Arquitectura](diagrama/arquitectura_pruebapragma.png)
+![Arquitectura](diagrama/Diagrama.jpg)
 
 | Componente | Función |
 |---|---|
